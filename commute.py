@@ -1,7 +1,10 @@
 import discord
+import os
 
 client = discord.Client()
-token = 'Nzk3NjU1MTA4Mzg0NzE4ODg4.X_poNQ.NTckNUndqL10nAAw9KAK_GnEOMU'
+
+accsee_token = os.environ["BOT_TOKEN"]
+token = (access_token)
 
 @client.event
 async def on_ready():
